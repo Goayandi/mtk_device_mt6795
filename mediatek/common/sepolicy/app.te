@@ -1,0 +1,23 @@
+
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+
+# Date: wk14.40
+# Operation : SQC 
+# Purpose : [ALPS01756200] wwop boot up fail
+allow appdomain custom_file:dir { search getattr open read };
+allow appdomain custom_file:file { read open getattr};
+
+# Vanzo:Kern on: Wed, 25 Mar 2015 14:37:51 +0800
+# add theme support
+# Themed resources (i.e. composed icons)
+allow appdomain theme_data_file:dir r_dir_perms;
+allow appdomain theme_data_file:file r_file_perms;
+# End of Vanzo:Kern
+# Vanzo:hanshengpeng on: Wed, 15 Jul 2015 22:28:42 +0800
+# add for et tx fp device
+allow appdomain fingerprint_device:chr_file rw_file_perms;
+# End of Vanzo:hanshengpeng

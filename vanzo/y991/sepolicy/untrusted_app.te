@@ -1,0 +1,12 @@
+#fpc1020
+allow untrusted_app fpc1020_device:chr_file { open read write };
+allow untrusted_app sysfs_capture_mode:file { open read write getattr };
+allow untrusted_app sysfs_capture_count:file { open read write getattr };
+allow untrusted_app sysfs_capture_settings_mux:file { open read write getattr };
+allow untrusted_app sysfs_adc_gain:file { open read write getattr };
+allow untrusted_app sysfs_adc_shift:file { open read write getattr };
+allow untrusted_app sysfs_capture_col_groups:file { open read write getattr };
+allow untrusted_app sysfs_capture_col_start:file { open read write getattr };
+allow untrusted_app sysfs_capture_row_count:file { open read write getattr };
+allow untrusted_app sysfs_capture_row_start:file { open read write getattr };
+allow untrusted_app sysfs_pxl_ctrl:file { open read write getattr };

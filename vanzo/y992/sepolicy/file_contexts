@@ -1,0 +1,13 @@
+#fp
+/dev/fpc1020         u:object_r:fpc1150_device:s0
+#capture setup
+/sys/devices/bus.2/1100a000.SPI1/spi_master/spi0/spi0.0/setup/capture_mode         u:object_r:sysfs_capture_mode:s0
+/sys/devices/bus.2/1100a000.SPI1/spi_master/spi0/spi0.0/setup/capture_count         u:object_r:sysfs_capture_count:s0
+/sys/devices/bus.2/1100a000.SPI1/spi_master/spi0/spi0.0/setup/capture_settings_mux         u:object_r:sysfs_capture_settings_mux:s0
+/sys/devices/bus.2/1100a000.SPI1/spi_master/spi0/spi0.0/setup/adc_gain         u:object_r:sysfs_adc_gain:s0
+/sys/devices/bus.2/1100a000.SPI1/spi_master/spi0/spi0.0/setup/adc_shift         u:object_r:sysfs_adc_shift:s0
+/sys/devices/bus.2/1100a000.SPI1/spi_master/spi0/spi0.0/setup/capture_col_groups         u:object_r:sysfs_capture_col_groups:s0
+/sys/devices/bus.2/1100a000.SPI1/spi_master/spi0/spi0.0/setup/capture_col_start         u:object_r:sysfs_capture_col_start:s0
+/sys/devices/bus.2/1100a000.SPI1/spi_master/spi0/spi0.0/setup/capture_row_count         u:object_r:sysfs_capture_row_count:s0
+/sys/devices/bus.2/1100a000.SPI1/spi_master/spi0/spi0.0/setup/capture_row_start         u:object_r:sysfs_capture_row_start:s0
+/sys/devices/bus.2/1100a000.SPI1/spi_master/spi0/spi0.0/setup/pxl_ctrl         u:object_r:sysfs_pxl_ctrl:s0
